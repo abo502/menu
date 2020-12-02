@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="java.util.List" %>
-<%@ page import="entity.Clothes" %><%--
+<%@ page import="entity.Menu" %><%--
   Created by IntelliJ IDEA.
   User: baobao
   Date: 2020/11/30
@@ -13,9 +13,9 @@
     <title>库存列表</title>
 </head>
 <body>
-<form action="/get" method="get">
-    <div style="height:200px; width:500px; margin:auto;text-align: center;border: 2px solid; border-radius: 10px;background-color: wheat;">
-    <input type="submit" value="点击进入库存列表！！！" style="width: 200px;height: 100px;margin-top: 50px">
+<form action="/menu" method="get">
+    <div style="height:200px; width:500px; background-color: blueviolet; text-align: center; margin: 300px auto">
+        <h1><input type="submit" value="点击进入菜单！！！" style="width: 250px;height: 100px;margin-top: 50px"></h1>
     </div>
 </form>
 </body>

@@ -1,9 +1,8 @@
 package entity;
 
-public class Clothes {
+public class Menu {
     private Integer id;
-    private String  brand;
-    private Integer number;
+    private String  name;
     private Integer price;
 
 
@@ -18,28 +17,19 @@ public class Clothes {
 
     @Override
     public String toString() {
-        return "Clothes{" +
+        return "Menu{" +
                 "id=" + id +
-                ", brand='" + brand + '\'' +
-                ", number=" + number +
+                ", name='" + name + '\'' +
                 ", price=" + price +
                 '}';
     }
 
-    public String getBrand() {
-        return brand;
+    public String getName() {
+        return name;
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public Integer getNumber() {
-        return number;
-    }
-
-    public void setNumber(Integer number) {
-        this.number = number;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Integer getPrice() {
